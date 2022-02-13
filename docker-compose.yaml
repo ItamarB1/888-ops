@@ -1,7 +1,0 @@
-version: "3"
-services:
-  itamar_web_server:
-    image: nginx:mainline-alpine
-    build: .
-    ports:
-      - "8080:80"
